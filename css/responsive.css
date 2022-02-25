@@ -1,0 +1,38 @@
+@media (min-width: 993px) and (max-width: 1200px) {
+    .container{
+        width: 960px;
+    }
+
+}
+@media   (max-width: 992px) {
+    .container{
+        width: 90%;
+    }
+    .col-4{
+        width: 100%;
+    }
+    .col-6{
+        width: 100%;
+        text-align: center;
+    }
+    .col-3{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .col-8{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    #journal .col-4 figcaption{
+        text-align: center;
+    }
+    #photographer .right-panel .col-2{
+        margin-top: 20px;
+    }
+
+}

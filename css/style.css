@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+.margin-bottom-none{
+    margin-bottom: 0 !important;
+}
+p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+figure{
+    margin:0;
+}
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+.container{
+    width:1170px;
+    margin: auto;
+}
+.text-center{
+    text-align: center;
+}
+.row{
+    overflow: hidden;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.col-4{
+    float: left;
+    width: 33.33%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-3{
+    float: left;
+    width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-6{
+    float: left;
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-8{
+    float: left;
+    width: 66.67%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-2{
+    float: left;
+    width: 16.67%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-10{
+    float: left;
+    width: 83.33%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+h3{
+    font-size: 18px;
+    color: #444444;
+}
+p{
+    color:#666666;
+    font-size: 14px;
+}
+/*Header Style*/
+
+header{
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+header figure{
+    float: left;
+}
+header figure a{
+    float: left;
+}
+header figure figcaption{
+    float: left;
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: 700;
+}
+header nav{
+    float:right;
+}
+
+header ul li{
+    display: inline-block;
+    padding: 35px 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+header ul li:hover{
+    background-color: #28b8d8;
+    color: #fff;
+}
+header ul li:hover a{
+    color: #fff;
+}
+
+/*Banner Style*/
+
+#banner{
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 100%;
+}
+/*.banner-text{*/
+    /*width: 830px;*/
+    /*margin: auto;*/
+    /*padding-top: 240px;*/
+    /*padding-bottom: 330px;*/
+    /*text-align: center;*/
+    /*color: #fff;*/
+/*}*/
+h1{
+    font-size: 50px;
+    color: #fff;
+    padding-top: 240px;
+    text-align: center;
+}
+#banner P{
+    font-size: 40px;
+    color: #fff;
+    padding-bottom: 330px;
+    text-align: center;
+}
+
+/*Servics Style*/
+#services{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f9f9f9;
+}
+#services .section-header h2{
+    font-size: 30px;
+    color: #444444;
+    margin-bottom: 30px;
+}
+#services h3{
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+#services figure{
+    padding: 15px;
+    border: 1px solid #e3e3e3;
+    background-color: #fff;
+}
+#services figcaption h4{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    color: #444444;
+}
+#instagram{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #000;
+}
+#instagram h3{
+    font-size: 18px;
+    color: #d5d5d5;
+    margin-bottom: 20px;
+}
+.instagram-button{
+    text-align:center;
+    padding-top: 35px;
+}
+#instagram a{
+    padding: 20px;
+    color:#a6a6a6;
+    border: 1px solid #a6a6a6;
+    display: inline-block;
+}
+#instagram a span{
+    padding-right: 5px;
+}
+#instagram figure{
+   position: relative;
+}
+#instagram figcaption{
+    background-color: #fff;
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width:100%;
+    display: none;
+}
+#instagram figcaption h4{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 130px;
+}
+
+#instagram figure:hover figcaption{
+    display: block;
+}
+
+/*Journal Style*/
+
+#journal{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f9f9f9;
+}
+#journal .col-4 figure{
+    margin-top: 30px;
+    border: 1px solid #e3e3e3;
+    background-color: #fff;
+}
+#journal .col-4 figure div{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#journal .col-4 figcaption{
+    padding:25px;
+}
+#journal .col-4 figcaption p:first-child{
+    margin-bottom: 25px;
+}
+#journal .col-4 figcaption a{
+    border-bottom: 1px solid #28b8d8;
+}
+/*Photographer*/
+#photographer{
+    background-color: #f9f9f9;
+    padding-bottom: 80px;
+}
+#photographer h3{
+    margin-bottom: 30px;
+}
+#photographer .left-panel .col-8{
+    padding-left: 30px;
+}
+#photographer .left-panel .col-8 p:first-child{
+    margin-bottom: 30px;
+    line-height:26px;
+}
+#photographer .right-panel h5{
+    margin-bottom: 20px;
+}
+/*socialMedia Style*/
+#socialMedia{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #373737;
+    color: #f0f0f0;
+}
+#socialMedia p{
+    color: #f0f0f0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#socialMedia li span{
+    margin-right: 15px;
+}
+footer{
+    background-color: #333333;
+    padding: 40px 0;
+    overflow: hidden;
+}
+footer p{
+    color: #cacaca;
+    float: left;
+}
+footer .social-icon{
+    float: right;
+}
+footer .social-icon i{
+    color:#fff;
+    margin-right: 15px;
+    border:1px solid #fff;
+    border-radius: 50%;
+    padding: 5px 8px;
+    line-height: 20px;
+}
+footer .social-icon a:hover i{
+    border-color: #000;
+    color: #000;
+}
